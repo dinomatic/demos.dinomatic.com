@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DinoMatic WP Themes &amp; Plugins Demos</title>
+	<link rel="preconnect" href="https://fonts.bunny.net">
+	<link href="https://fonts.bunny.net/css?family=rubik:400,700" rel="stylesheet" />
+	<link rel="icon" href="/favicon.jpg">
+
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-size: 1rem;
+			font-family: 'Rubik', sans-serif;
+		}
+
+		* {
+			box-sizing: inherit;
+		}
+
+		.page {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1rem;
+			background-color: #e2e8f0;
+		}
+
+		main {
+			display: grid;
+			gap: 1rem;
+			color: #475569;
+			text-align: center;
+
+			@media (min-width: 768px) {
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+		}
+
+		header {
+			margin-bottom: 1rem;
+			color: #475569;
+
+			@media (min-width: 768px) {
+				grid-column: span 3;
+			}
+		}
+
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+
+		.item {
+			margin: 0;
+			padding: 1rem;
+			font-size: 1.4rem;
+			text-decoration: none;
+			color: #475569;
+			background-color: #f1f5f9;
+			border-radius: 4px;
+
+			img {
+				display: block;
+				margin-bottom: 1rem;
+				border-radius: 4px;
+				max-width: 100%;
+				opacity: 0.8;
+				transition: all 0.4s ease-in-out;
+			}
+		}
+
+		.item:hover {
+			box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+			transition: all 0.4s ease-in-out;
+
+			& img {
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="page">
+
+		<main>
+			<header>
+				<h1>DinoMatic Demos</h1>
+				<span>WP Themes and Plugins for gambling affiliate websites</span>
+			</header>
+
+			<a href="ottawa" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/ottawa.jpg" alt="Ottawa" loading="lazy" />
+				<span>Ottawa - Spinoko Theme</span>
+			</a>
+			<a href="bangkok" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/bangkok.jpg" alt="Bangkok" loading="lazy" />
+				<span>Bangkok - Spinoko Theme</span>
+			</a>
+			<a href="kuala-lumpur" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/kuala-lumpur.jpg" alt="Kuala Lumpur" loading="lazy" />
+				<span>Kuala Lumpur - Spinoko Theme</span>
+			</a>
+			<a href="athens" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/athens.jpg" alt="Athens" loading="lazy" />
+				<span>Athens - Akurai Theme</span>
+			</a>
+			<a href="berlin" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/berlin.jpg" alt="Berlin" loading="lazy" />
+				<span>Berlin - Akurai Theme</span>
+			</a>
+			<a href="lisbon" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/lisbon.jpg" alt="Lisbon" loading="lazy" />
+				<span>Lisbon - Akurai Theme</span>
+			</a>
+			<a href="havana" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/havana.jpg" alt="Havana" loading="lazy" />
+				<span>Havana - Kemoku Plugin</span>
+			</a>
+			<a href="luanda" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/luanda.jpg" alt="Luanda" loading="lazy" />
+				<span>Luanda - DinOdds Plugin</span>
+			</a>
+			<a href="manila" class="item">
+				<img src="https://media.dinomatic.com/demo/screenshots/manila.jpg" alt="Manila" loading="lazy" />
+				<span>Manila - Sikika Theme</span>
+			</a>
+		</main>
+	</div>
+</body>
+
+</html>
